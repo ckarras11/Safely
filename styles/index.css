@@ -1,0 +1,508 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-weight: 900;
+  color: #c1c4c5;
+  background-color: transparent;
+  z-index: 1;
+  position: relative; }
+  nav ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 15%; }
+    nav ul li {
+      padding: 10px;
+      font-size: 10px;
+      border: solid transparent 1px; }
+      nav ul li a {
+        text-decoration: none;
+        color: #c1c4c5; }
+    nav ul li:hover {
+      cursor: pointer;
+      border: solid grey 1px; }
+
+.logo {
+  margin-left: 15%;
+  font-size: 14px;
+  color: white; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: black;
+  margin: 0; }
+
+section {
+  position: relative;
+  background-color: transparent;
+  width: 100%; }
+
+.js-hide-display {
+  display: none; }
+
+.hero {
+  font-family: 'Lato', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.safely {
+  margin: 0;
+  font-size: 150px;
+  color: white; }
+
+.above-hero {
+  margin: 0;
+  font-size: 25px;
+  color: #ffe1ac;
+  margin-top: 10%; }
+
+.hero-backdrop {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(black)), url("http://drellisedmunds.com/wp-content/uploads/2015/07/twomountains.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), black), url("http://drellisedmunds.com/wp-content/uploads/2015/07/twomountains.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.5), black), url("http://drellisedmunds.com/wp-content/uploads/2015/07/twomountains.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), black), url("http://drellisedmunds.com/wp-content/uploads/2015/07/twomountains.jpg");
+  background-size: cover;
+  position: absolute;
+  height: 100vh;
+  top: 0; }
+
+.slogan {
+  margin: 0;
+  font-size: 14px;
+  color: #c1c4c5;
+  font-weight: normal; }
+
+.stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.about-container {
+  width: 75%;
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .about-container p {
+    color: #c1c4c5;
+    font-weight: normal;
+    width: 75%;
+    font-size: 12px;
+    margin-bottom: 40px; }
+
+.brand-heading {
+  color: white;
+  margin: 0;
+  margin-top: 10%;
+  font-size: 10px;
+  font-weight: normal; }
+
+.brand-container {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.brand {
+  border: solid rgba(193, 196, 197, 0.2) 1px;
+  padding: 20px; }
+  .brand img {
+    height: 30px;
+    width: 125px; }
+
+.brand:hover {
+  cursor: pointer;
+  border: solid #c1c4c5 1px; }
+
+.question {
+  color: #ffe1ac;
+  font-weight: normal;
+  font-size: 10px; }
+
+.trust {
+  color: white;
+  width: 33%;
+  font-size: 24px;
+  margin: 0; }
+
+.about, .spacesuit {
+  width: 50%; }
+
+.spacesuit {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(75%, black)), url("../spacex suit transparent.png");
+  background: -webkit-linear-gradient(transparent, black 75%), url("../spacex suit transparent.png");
+  background: -o-linear-gradient(transparent, black 75%), url("../spacex suit transparent.png");
+  background: linear-gradient(transparent, black 75%), url("../spacex suit transparent.png");
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 30px; }
+
+@media (max-width: 1400px) {
+  .spacesuit {
+    height: 300px;
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(90%, black)), url("../spacex suit transparent.png");
+    background: -webkit-linear-gradient(transparent, black 90%), url("../spacex suit transparent.png");
+    background: -o-linear-gradient(transparent, black 90%), url("../spacex suit transparent.png");
+    background: linear-gradient(transparent, black 90%), url("../spacex suit transparent.png");
+    background-size: cover; }
+  .feature {
+    display: none; } }
+
+.stats-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.stat h5 {
+  color: white;
+  font-weight: normal;
+  font-size: 30px;
+  margin: 0; }
+
+.stat h6 {
+  color: #ffe1ac;
+  font-weight: normal;
+  font-size: 10px;
+  margin: 0; }
+
+.feature {
+  width: 20px;
+  height: 20px;
+  border: solid rgba(193, 196, 197, 0.2) 1px;
+  position: relative; }
+
+.feature:hover {
+  border: solid #c1c4c5 1px;
+  cursor: pointer; }
+
+.f1 {
+  left: 46%;
+  top: 55%; }
+
+.f1:hover .f1-expanded {
+  opacity: 1;
+  -webkit-transition: opacity 1.5s;
+  -o-transition: opacity 1.5s;
+  transition: opacity 1.5s; }
+
+.f1-expanded {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  opacity: 0;
+  margin-left: 16%;
+  margin-top: 24%;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(black)), url("https://wallpaperstock.net/crysis-2-wallpapers_27320_1920x1200.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), black), url("https://wallpaperstock.net/crysis-2-wallpapers_27320_1920x1200.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.4), black), url("https://wallpaperstock.net/crysis-2-wallpapers_27320_1920x1200.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), black), url("https://wallpaperstock.net/crysis-2-wallpapers_27320_1920x1200.jpg");
+  background-size: cover;
+  padding: 10px; }
+
+.suit-features {
+  color: #c1c4c5;
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: normal; }
+
+.nanosuit {
+  color: white;
+  margin: 0; }
+
+.suit-p {
+  color: #c1c4c5;
+  width: 100% !important; }
+
+.f2 {
+  left: 74%;
+  top: 12%; }
+
+.f3 {
+  left: 22%;
+  top: 32%; }
+
+.f4 {
+  left: 78%;
+  top: 35%; }
+
+.flight-form {
+  width: 75%; }
+  .flight-form form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 10%; }
+
+.other {
+  width: 33%; }
+
+.pass {
+  text-align: center; }
+
+.inputs:hover {
+  border: solid #c1c4c5 1px; }
+
+.inputs {
+  border: solid rgba(193, 196, 197, 0.2) 1px;
+  margin: 5px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .inputs label {
+    color: #c1c4c5;
+    font-size: 10px; }
+  .inputs input, .inputs select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 12px;
+    width: 65%; }
+  .inputs input::-webkit-input-placeholder {
+    color: white;
+    text-align: right; }
+  .inputs input {
+    padding-right: 10px;
+    text-align: center; }
+  .inputs input:focus, .inputs select:focus {
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+.submit {
+  background-color: transparent;
+  color: #ffe1ac;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none; }
+
+.destination-container {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.destination {
+  width: 50%;
+  height: 300px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end; }
+
+.dest1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.6))), url("https://cdn.photographylife.com/wp-content/uploads/2012/10/Capitol-Peak-Sunset.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://cdn.photographylife.com/wp-content/uploads/2012/10/Capitol-Peak-Sunset.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://cdn.photographylife.com/wp-content/uploads/2012/10/Capitol-Peak-Sunset.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://cdn.photographylife.com/wp-content/uploads/2012/10/Capitol-Peak-Sunset.jpg");
+  background-size: cover; }
+
+.dest2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.6))), url("https://dreamlandia.com/images/L/lava.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://dreamlandia.com/images/L/lava.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://dreamlandia.com/images/L/lava.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://dreamlandia.com/images/L/lava.jpg");
+  background-size: cover; }
+
+.select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 8%;
+  border: solid rgba(193, 196, 197, 0.2) 1px;
+  padding: 10px; }
+
+.select:hover {
+  border: solid #c1c4c5 1px;
+  cursor: pointer; }
+
+.text-container {
+  padding: 20px; }
+
+.dest-title {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 0; }
+
+.dest-loc {
+  margin-top: 5px;
+  color: #c1c4c5;
+  font-size: 10px; }
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  z-index: 1;
+  position: relative;
+  margin-top: 100px; }
+
+.foot-h4 {
+  color: white;
+  margin: 0;
+  font-size: 24px; }
+
+.foot-h5 {
+  color: #c1c4c5;
+  margin: 0;
+  font-size: 10px;
+  font-weight: normal; }
+
+.footer-form {
+  margin-top: 10px !important; }
+
+.link-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #c1c4c5;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: left; }
+  .link-container h6 {
+    color: white;
+    font-weight: normal;
+    text-align: right;
+    margin-bottom: 0; }
+  .link-container p {
+    color: white;
+    font-size: 12px; }
+  .link-container ul {
+    list-style: none; }
+    .link-container ul li {
+      margin-bottom: 10px;
+      font-size: 12px;
+      text-align: right;
+      cursor: pointer; }
+    .link-container ul li:hover {
+      color: white; }
+
+.footer-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 10px; }
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.moon {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(black)), url("../facts-about-the-moon-ancient-aliens.png");
+  background: -webkit-linear-gradient(transparent, black), url("../facts-about-the-moon-ancient-aliens.png");
+  background: -o-linear-gradient(transparent, black), url("../facts-about-the-moon-ancient-aliens.png");
+  background: linear-gradient(transparent, black), url("../facts-about-the-moon-ancient-aliens.png");
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  position: relative; }

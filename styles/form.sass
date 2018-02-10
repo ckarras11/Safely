@@ -1,0 +1,47 @@
+.flight-form
+    width: 75%
+    form
+        display: flex
+        justify-content: center
+        margin-top: 10%
+
+.other
+    width: 33%
+
+.pass
+    text-align: center
+.inputs:hover
+    border: solid $grey 1px
+.inputs
+    border: solid rgba(193,196,197, .2) 1px
+    margin: 5px
+    padding: 10px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    label
+        color: $grey
+        font-size: 10px
+    input, select 
+        background-color: transparent
+        border: none
+        color: white
+        font-size: 12px
+        width: 65%
+    input::-webkit-input-placeholder 
+        color: white
+        text-align: right
+    input
+        padding-right: 10px
+        text-align: center
+    input:focus, select:focus
+        border: none
+        outline: none
+        box-shadow: none
+.submit
+    background-color:: transparent
+    color: $yellow
+    border: none
+    font-size: 20px
+    cursor: pointer
+    outline: none

@@ -1,0 +1,131 @@
+.stats
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+
+.about-container
+    width: 75%
+    margin-top: 10%
+    display: flex
+    justify-content: center
+    align-items: center
+    p
+        color: $grey
+        font-weight: normal
+        width: 75%
+        font-size: 12px
+        margin-bottom: 40px
+
+.brand-heading
+    color: white
+    margin: 0
+    margin-top: 10%
+    font-size: 10px
+    font-weight: normal
+
+.brand-container
+    margin-top: 20px
+    display: flex
+    justify-content: space-between
+    align-items: center
+.brand
+    border: solid rgba(193,196,197, .2) 1px
+    padding: 20px
+    img
+        height: 30px
+        width: 125px
+.brand:hover
+    cursor: pointer
+    border: solid $grey 1px
+.question
+    color: $yellow
+    font-weight: normal
+    font-size: 10px
+.trust
+    color: white
+    width: 33%
+    font-size: 24px
+    margin: 0
+.about, .spacesuit
+    width: 50%
+.spacesuit
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1) 75%), url('../spacex suit transparent.png')
+    height: 600px
+    background-size: contain
+    background-repeat: no-repeat
+    margin-right: 30px
+@media (max-width: 1400px)
+    .spacesuit
+        height: 300px
+        background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1) 90%), url('../spacex suit transparent.png')
+        background-size: cover
+    .feature
+        display: none
+.stats-container
+    display: flex
+    justify-content: space-between
+    align-items: center
+.stat
+    h5
+        color: white
+        font-weight: normal
+        font-size: 30px
+        margin: 0
+    h6
+        color: $yellow    
+        font-weight: normal
+        font-size: 10px
+        margin: 0
+.feature
+    width: 20px
+    height: 20px
+    border: solid rgba(193,196,197, .2) 1px
+    position: relative
+.feature:hover
+    border: solid $grey 1px
+    cursor: pointer
+
+.f1
+    left: 46%
+    top: 55%
+.f1:hover
+    .f1-expanded
+        opacity: 1
+        transition: opacity 1.5s
+
+.f1-expanded
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    opacity: 0
+    margin-left: 16%
+    margin-top: 24%
+    position: absolute
+    width: 200px
+    height: 200px
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,1)), url('https://wallpaperstock.net/crysis-2-wallpapers_27320_1920x1200.jpg')
+    background-size: cover
+    padding: 10px
+.suit-features
+    color: $grey
+    margin: 0
+    margin-bottom: 5px
+    font-size: 12px
+    font-weight: normal
+.nanosuit
+    color: white
+    margin: 0
+.suit-p
+    color: $grey
+    width: 100% !important
+.f2
+    left: 74%
+    top: 12%
+
+.f3
+    left: 22%
+    top: 32%
+.f4
+    left: 78%
+    top: 35%
